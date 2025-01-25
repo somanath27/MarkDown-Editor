@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&display=swap");
+
+.container {
+  width: 50%;
+  height: 100%;
+  padding: 13px;
+  font-family: "Roboto Mono", monospace;
+}
+
+.title {
+  font-size: 22px;
+  font-weight: 600;
+  color: #243242;
+  font-family: "Roboto Mono", monospace;
+  margin-bottom: 1rem;
+  padding: 10px 0;
+  border-bottom: 2px solid rgba(15, 15, 15, 0.3);
+}
+
+.textarea-container {
+  width: 100%;
+  height: 80%;
+  resize: none;
+  border: none;
+  outline-style: dotted;
+  outline-color: #20cda5;
+  font-size: 17px;
+  color: #15c39a;
+  background: #0a1246;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 8px;
+  }
+
+::placeholder {
+  color: #15c39a;
+  opacity: 1;
+}
+
+@media only screen and (min-width: 600px) and (max-width: 800px) {
+  .container {
+    width: auto;
+    height: 100%;
+    padding: 13px;
+    margin-bottom: 3rem;
+    font-family: "Roboto Mono", monospace;
+  }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 599px) {
+  .container {
+    width: auto;
+    height: 100%;
+    padding: 13px;
+    margin-bottom: 3rem;
+    font-family: "Roboto Mono", monospace;
+  }
+}
+
+@media only screen and (max-width: 399px) {
+  .container {
+    width: auto;
+    height: 100%;
+    padding: 13px;
+    margin-bottom: 3rem;
+    font-family: "Roboto Mono", monospace;
+  }
+
+  .title {
+    font-size: 20px;
+  }
+}
